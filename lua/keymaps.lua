@@ -25,6 +25,7 @@ keymap("v", "X", '"_X', silent)
 -- Don't yank on visual paste
 keymap("v", "p", '"_dP', silent)
 
--- Tabs
+-- BufferLine
 keymap("n", "<Tab>", ":BufferLineCycleNext<CR>", silent)
 keymap("n", "<S-Tab>", ":BufferLineCyclePrev<CR>", silent)
+keymap("n", "<S-q>", ":bd<CR>", silent)
